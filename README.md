@@ -1,0 +1,2 @@
+# Albus
+A Discord bot
