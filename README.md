@@ -1,5 +1,4 @@
 # Albus
----
 Discord Chat bot using Open AI API
 
 This repository contains code for a Discord chat bot that utilizes the OpenAI API for generating responses. The bot is built using Python and can be integrated into your Discord server to provide automated responses based on the conversations happening in the server.
@@ -62,8 +61,18 @@ Your bot should now be up and running, and you can invite it to your Discord ser
 
 ## Usage
 
-Once the bot is added to your Discord server, it will listen for messages and respond based on the conversations using the OpenAI API.
+Once the bot is added to your Discord server and running, you can interact with it using a fixed prefix followed by your message. The prefix is set to '`', and you can use it to invoke the bot.
+
+For example, to interact with the bot, type the following in any text channel where the bot is present:
+
+```
+`[your question]
+```
+(Remember to do not any space after the prefix.)
+
+
+Replace `<your question>` with the actual question you want to ask the bot.
+
+The bot will then process your question using the OpenAI API and respond accordingly based on the conversation context.
 
 Enjoy chatting with your new Discord bot powered by OpenAI! If you have any questions or encounter any issues, feel free to open an issue in this repository.
-
-
