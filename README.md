@@ -68,7 +68,7 @@ For example, to interact with the bot, type the following in any text channel wh
 ```
 `[your question]
 ```
-(Remember to do not any space after the prefix.)
+(Remember to not add any space after the prefix.)
 
 
 Replace `<your question>` with the actual question you want to ask the bot.
