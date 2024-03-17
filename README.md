@@ -7,7 +7,17 @@ This repository contains code for a Discord chat bot that utilizes the OpenAI AP
 
 To get the bot up and running, follow these steps:
 
-### 1. Get Discord Bot Token
+### 1. Clone the Repository 
+
+You can either clone this repository to your local machine using Git by running the following command in your terminal:
+
+```
+git clone <repository_url>
+```
+
+Or you can download the code as a ZIP file by clicking on the "Code" button at the top of this repository's GitHub page and then selecting "Download ZIP".
+
+### 2. Get Discord Bot Token
 
 You'll need to create a Discord application and generate a bot token. Here's how:
 
@@ -16,7 +26,7 @@ You'll need to create a Discord application and generate a bot token. Here's how
 3. Go to the "Bot" tab and click "Add Bot".
 4. Click on "Copy" under the token section to copy your bot token.
 
-### 2. Get OpenAI API Key
+### 3. Get OpenAI API Key
 
 You'll also need an API key from OpenAI to use their API. Follow these steps:
 
@@ -25,12 +35,11 @@ You'll also need an API key from OpenAI to use their API. Follow these steps:
 3. Create a new API key if you haven't already.
 4. Copy your API key.
 
-### 3. Configure the Bot
+### 4. Configure the Bot
 
-1. Clone this repository to your local machine.
-2. Navigate to the directory where the repository is cloned.
-3. Create a file named `.env` in the root directory of the project.
-4. Add the following lines to the `.env` file:
+1. Navigate to the directory where the repository is cloned or extracted.
+2. Create a file named `.env` in the root directory of the project.
+3. Add the following lines to the `.env` file:
 
 ```
 DISCORD_TOKEN=YOUR_DISCORD_BOT_TOKEN
@@ -39,7 +48,7 @@ OPENAI_API_KEY=YOUR_OPENAI_API_KEY
 
 Replace `YOUR_DISCORD_BOT_TOKEN` with the token you obtained from the Discord Developer Portal, and `YOUR_OPENAI_API_KEY` with the API key you obtained from OpenAI.
 
-### 4. Install Dependencies
+### 5. Install Dependencies
 
 Before running the bot, you'll need to install the necessary dependencies. Run the following command in your terminal (In the working directory):
 
@@ -48,12 +57,12 @@ pip install -r requirements.txt
 ```
 
 
-### 5. Run the Bot
+### 6. Run the Bot
 
 Once you've completed the above steps, you can start the bot by running the following command:
 
 ```
-python bot.py
+python Albus.py
 ```
 
 
@@ -76,3 +85,4 @@ Replace `<your question>` with the actual question you want to ask the bot.
 The bot will then process your question using the OpenAI API and respond accordingly based on the conversation context.
 
 Enjoy chatting with your new Discord bot powered by OpenAI! If you have any questions or encounter any issues, feel free to open an issue in this repository.
+
