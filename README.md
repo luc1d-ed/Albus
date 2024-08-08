@@ -12,7 +12,7 @@ To get the bot up and running, follow these steps:
 You can either clone this repository to your local machine using Git by running the following command in your terminal:
 
 ```
-git clone <repository_url>
+git clone https://github.com/luc1d-ed/Albus.git
 ```
 
 Or you can download the code as a ZIP file by clicking on the "Code" button at the top of this repository's GitHub page and then selecting "Download ZIP".
